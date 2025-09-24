@@ -1,5 +1,5 @@
 // 需要反代的地址
-const hostname = "https://snippets.neib.cn"
+const hostname = "https://www.speedtest.net"
 
 function handleRequest(request) {
   if (request.headers.get('Upgrade') !== 'websocket') {
